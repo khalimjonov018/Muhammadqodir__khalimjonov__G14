@@ -1,1 +1,376 @@
-/*# sourceMappingURL=main.css.map */
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-BoldItalic.woff2") format("woff2"), url("WorkSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-ExtraBold.woff2") format("woff2"), url("WorkSans-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-BlackItalic.woff2") format("woff2"), url("WorkSans-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-ExtraBoldItalic.woff2") format("woff2"), url("WorkSans-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-Bold.woff2") format("woff2"), url("WorkSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-Black.woff2") format("woff2"), url("WorkSans-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-SemiBold.woff2") format("woff2"), url("WorkSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-Light.woff2") format("woff2"), url("WorkSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-Regular.woff2") format("woff2"), url("WorkSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-ExtraLight.woff2") format("woff2"), url("WorkSans-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-LightItalic.woff2") format("woff2"), url("WorkSans-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-ExtraLightItalic.woff2") format("woff2"), url("WorkSans-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-MediumItalic.woff2") format("woff2"), url("WorkSans-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-SemiBoldItalic.woff2") format("woff2"), url("WorkSans-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-Italic.woff2") format("woff2"), url("WorkSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-Medium.woff2") format("woff2"), url("WorkSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-Thin.woff2") format("woff2"), url("WorkSans-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-ThinItalic.woff2") format("woff2"), url("WorkSans-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "work sans", sans-serif;
+}
+
+.container {
+  max-width: 1264px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  max-width: 100%;
+  height: 808px;
+  background-image: url(/images/bg__navbar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 56px 0 0 0;
+}
+@media screen and (min-width: 0px) and (max-width: 1150px) {
+  .navbar {
+    background-position: center;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .navbar {
+    background-position: center;
+    max-width: 100%;
+  }
+}
+.navbar .navbar__wrapp .navbar__controls {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+.navbar .navbar__wrapp .navbar__controls .navbar__list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.navbar .navbar__wrapp .navbar__controls .navbar__list .navbar__list-item img {
+  display: none;
+}
+@media screen and (min-width: 0px) and (max-width: 1150px) {
+  .navbar .navbar__wrapp .navbar__controls .navbar__list .navbar__list-item img {
+    position: absolute;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    background-color: rgb(79, 82, 255);
+    height: 100vh;
+    width: 40%;
+    padding: 70px 50px;
+    z-index: 9999;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 1150px) {
+  .navbar .navbar__wrapp .navbar__controls .navbar__list {
+    position: absolute;
+    flex-direction: column;
+    transform: translateX(-100%);
+    top: 0;
+    left: 0;
+    background-color: rgb(79, 82, 255);
+    height: 100vh;
+    width: 40%;
+    padding: 70px 50px;
+    z-index: 9999;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
+.navbar .navbar__wrapp .navbar__controls .navbar__list .navbar__list-item a {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  color: #fcfcfc;
+  text-align: center;
+  font-family: "Work Sans" sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 23.4px */
+}
+.navbar .navbar__wrapp .navbar__controls .navbar__icon {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+@media screen and (min-width: 0px) and (max-width: 1150px) {
+  .navbar .navbar__wrapp .navbar__controls .navbar__icon {
+    display: none;
+  }
+}
+.navbar .navbar__wrapp .navbar__info {
+  display: flex;
+}
+.navbar .navbar__wrapp .navbar__info h2 {
+  margin-top: 183px;
+  color: #fff;
+  font-family: "Work Sans" sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 67.2px */
+  letter-spacing: 1.12px;
+  max-width: 579px;
+}
+@media screen and (max-width: 767px) {
+  .navbar .navbar__wrapp .navbar__info h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+.navbar .navbar__wrapp #navbar__checked {
+  display: none;
+}
+@media screen and (min-width: 0px) and (max-width: 1150px) {
+  .navbar .navbar__wrapp #navbar__checked #navbar__checked:checked + .navbar__list {
+    transform: translateX(0);
+  }
+}
+.navbar .navbar__wrapp .bars {
+  display: none;
+}
+@media screen and (min-width: 0px) and (max-width: 1150px) {
+  .navbar .navbar__wrapp .bars {
+    position: absolute;
+    display: block;
+    z-index: 10001;
+    right: 100px;
+    background-color: rgb(250, 250, 250);
+    padding: 12px;
+    border-radius: 10px;
+  }
+}
+
+.hero .hero__wrapp {
+  width: 100%;
+  height: 280px;
+  background-color: #ab0433;
+  padding: 32px;
+  margin-top: -150px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 0px) and (max-width: 1150px) {
+  .hero .hero__wrapp {
+    width: 750px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero .hero__wrapp {
+    width: 428px;
+  }
+}
+.hero .hero__wrapp .hero__controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 32px 32px;
+}
+.hero .hero__wrapp .hero__controls h2 {
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: "Work Sans" sans-serif;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 55.2px */
+}
+@media screen and (max-width: 767px) {
+  .hero .hero__wrapp .hero__controls h2 {
+    color: var(--White, #fff);
+    text-align: center;
+    font-family: "Work Sans" sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 25.2px */
+  }
+}
+.hero .hero__wrapp .hero__controls p {
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans" sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 149%; /* 35.76px */
+  width: 616px;
+}
+@media screen and (max-width: 767px) {
+  .hero .hero__wrapp .hero__controls p {
+    color: #fff;
+    text-align: center;
+    font-family: "Work Sans" sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 149%; /* 14.9px */
+    width: 226px;
+  }
+}
+.hero .hero__wrapp .hero__controls a {
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 32px;
+  background: #ff753a;
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans" sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 18.2px */
+  margin-top: 20px;
+}
+@media screen and (max-width: 767px) {
+  .hero .hero__wrapp .hero__controls a {
+    color: #fff;
+    text-align: center;
+    font-family: "Work Sans" sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 15.6px */
+  }
+}/*# sourceMappingURL=main.css.map */
