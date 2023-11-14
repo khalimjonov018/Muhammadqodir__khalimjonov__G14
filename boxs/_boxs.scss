@@ -22,6 +22,7 @@
     .boxs__list {
         display: flex;
         flex-wrap: wrap;
+        justify-self: center;
         gap: 30px;
       .boxs__list-item {
         
