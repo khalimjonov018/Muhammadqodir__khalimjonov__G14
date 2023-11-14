@@ -18,6 +18,7 @@
       font-style: normal;
       font-weight: 700;
       line-height: 120%; /* 48px */
+      margin-bottom: 30px;
     }
     .boxs__list {
         display: flex;
@@ -36,6 +37,7 @@
             font-style: normal;
             font-weight: 600;
             line-height: 130%; /* 23.4px */
+          
           }
           & h4 {
             color: var(--252525, #252525);
