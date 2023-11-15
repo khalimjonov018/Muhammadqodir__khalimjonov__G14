@@ -1,0 +1,107 @@
+.second__boxs {
+  padding: 88px;
+  background: #ececec;
+  @include tablet() {
+    padding: 44px;
+  }
+  .products__text {
+    & h3 {
+      color: #505050;
+      text-align: center;
+      font-family: "Work Sans" sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%; /* 48px */
+      &::before {
+        content: "";
+        display: flex;
+        margin: auto;
+        max-width: 90px;
+        height: 6px;
+        background-color: #ab0433;
+      }
+    }
+  }
+  .products__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 32px;
+    @include tablet() {
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .products__list-item {
+      & img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+      }
+      border-radius: 10px 10px 0px 0px;
+      background: #fff;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      flex: 1 0 0;
+      align-self: stretch;
+      box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.05), 0px 2px 4px 0px rgba(28, 5, 77, 0.1);
+      .products__texts {
+        display: flex;
+        padding: 24px;
+        .products__info {
+          & h3 {
+            color: var(--252525, #252525);
+            font-family: "Work Sans" sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 130%; /* 23.4px */
+          }
+          & p {
+            color: var(--767676, #767676);
+            font-family: "Work Sans" sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 130%; /* 20.8px */
+            margin-bottom: 15px;
+          }
+          .products_num {
+            border-radius: 20px;
+            border: 1px solid #000;
+            padding: 2px 6px;
+            color: #505050;
+            font-family: "Montserrats" sans-serif;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            & span {
+              margin-right: 6px;
+              color: #505050;
+              text-align: right;
+              font-family: "Montserrat" sans-serif;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 150%; /* 18px */
+            }
+          }
+          & h3 {
+            color: var(--252525, #252525);
+            font-family: "Work Sans" sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 130%; /* 23.4px */
+          }
+        }
+      }
+    }
+  }
+}

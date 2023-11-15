@@ -7,10 +7,10 @@
     margin-top: -150px;
     border-radius: 10px;
     @include tablet() {
-      width: 750px;
+      max-width: 750px;
     }
     @include mobile() {
-      width: 428px;
+      max-width: 428px;
     }
     .hero__controls {
       display: flex;
